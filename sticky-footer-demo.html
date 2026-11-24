@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Демо sticky footer — Game.Key.Ua</title>
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Стилі лише для цієї сторінки (style.css не підключаємо, щоб він не ламав Bootstrap) -->
+    <link rel="stylesheet" href="services.css">
+</head>
+<body class="d-flex flex-column min-vh-100">
+
+    <header>
+        <nav class="navbar navbar-expand-md bg-white shadow-sm">
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-center gap-2 fw-bold" href="index.html">
+                    <img src="img/logo.png" alt="Логотип Game.Key.Ua" width="40" height="40">
+                    Game.Key.Ua
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#mainNav" aria-controls="mainNav"
+                        aria-expanded="false" aria-label="Меню">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="mainNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Головна</a></li>
+                        <li class="nav-item"><a class="nav-link" href="catalog.html">Каталог</a></li>
+                        <li class="nav-item"><a class="nav-link" href="price.html">Прайс</a></li>
+                        <li class="nav-item"><a class="nav-link" href="services.html">Послуги</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contacts.html">Контакти</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="flex-grow-1">
+        <div class="container mt-5">
+            <p class="text-center">На цій сторінці лише один рядок тексту, але футер усе одно притиснутий до низу вікна.</p>
+        </div>
+    </main>
+
+    <footer class="mt-auto bg-dark text-white p-3 text-center">
+        <div class="mb-2">
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="text-white mx-2" aria-label="Instagram"><i class="fa-brands fa-instagram fa-lg"></i></a>
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="text-white mx-2" aria-label="Facebook"><i class="fa-brands fa-facebook fa-lg"></i></a>
+            <a href="https://t.me" target="_blank" rel="noopener noreferrer" class="text-white mx-2" aria-label="Telegram"><i class="fa-brands fa-telegram fa-lg"></i></a>
+        </div>
+        &copy; 2026 Game.Key.Ua. Усі права захищені.
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Прайс-лист — Game.Key.Ua</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container wrapper">
+
+    <header class="main-header" id="top">
+        <div class="logo">
+            <a href="index.html">
+                <img src="img/logo.png" alt="Логотип Game.Key.Ua — перейти на головну" width="50">
+            </a>
+            <div class="logo-text">
+                <h1>Прайс-лист</h1>
+                <p>Актуальні ціни на ключі Steam та години роботи підтримки</p>
+            </div>
+        </div>
+        <nav class="main-menu">
+            <ul>
+                <li><a href="index.html">Головна</a></li>
+                <li><a href="index.html#advantages">Переваги</a></li>
+                <li><a href="catalog.html">Каталог</a></li>
+                <li><a href="price.html">Прайс</a></li>
+                <li><a href="services.html">Послуги</a></li>
+                <li><a href="index.html#how-to-buy">Як купити</a></li>
+                <li><a href="contacts.html">Контакти</a></li>
+            </ul>
+        </nav>
+
+        <button type="button" id="open-modal-btn" class="contact-btn">Зв'язатися з нами</button>
+
+        <button class="hamburger" aria-label="Меню" aria-expanded="false">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+
+        <nav class="mobile-menu">
+            <a href="index.html">Головна</a>
+            <a href="index.html#advantages">Переваги</a>
+            <a href="catalog.html">Каталог</a>
+            <a href="price.html">Прайс</a>
+            <a href="services.html">Послуги</a>
+            <a href="index.html#how-to-buy">Як купити</a>
+            <a href="contacts.html">Контакти</a>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main>
+
+        <section class="about-section" id="price">
+            <h2>Прайс-лист</h2>
+            <table border="1" width="100%" cellpadding="10" cellspacing="0">
+                <caption>Ціни на популярні ключі Steam</caption>
+                <thead>
+                    <tr>
+                        <th>Товар</th>
+                        <th>Опис</th>
+                        <th>Ціна (грн)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Counter-Strike 2 Prime</td>
+                        <td>Статус Prime для CS2: пріоритетний матчмейкінг та бонуси</td>
+                        <td>379</td>
+                    </tr>
+                    <tr>
+                        <td>The Witcher 3: Wild Hunt</td>
+                        <td>Рольова гра з відкритим світом, базова версія</td>
+                        <td>249</td>
+                    </tr>
+                    <tr>
+                        <td>Elden Ring</td>
+                        <td>Екшн-RPG від FromSoftware, регіон — Україна</td>
+                        <td>1099</td>
+                    </tr>
+                    <tr>
+                        <td>Cyberpunk 2077</td>
+                        <td>Науково-фантастична RPG, стандартне видання</td>
+                        <td>799</td>
+                    </tr>
+                    <tr>
+                        <td>Подарункова карта Steam</td>
+                        <td>Поповнення гаманця Steam на 200 грн</td>
+                        <td>200</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="2">Середня вартість товару:</td>
+                        <td>545 грн</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+
+        <hr>
+
+        <section class="about-section" id="schedule">
+            <h2>Графік роботи підтримки</h2>
+            <table border="1" width="100%" cellpadding="10" cellspacing="0">
+                <caption>Години роботи служби підтримки Game.Key.Ua</caption>
+                <tr>
+                    <th>День</th>
+                    <th>Години роботи</th>
+                    <th>Технічна перерва</th>
+                </tr>
+                <tr>
+                    <td>Понеділок</td>
+                    <td>09:00 - 21:00</td>
+                    <td rowspan="5">13:00 - 14:00</td>
+                </tr>
+                <tr>
+                    <td>Вівторок</td>
+                    <td>09:00 - 21:00</td>
+                </tr>
+                <tr>
+                    <td>Середа</td>
+                    <td>09:00 - 21:00</td>
+                </tr>
+                <tr>
+                    <td>Четвер</td>
+                    <td>09:00 - 21:00</td>
+                </tr>
+                <tr>
+                    <td>П'ятниця</td>
+                    <td>09:00 - 22:00</td>
+                </tr>
+                <tr>
+                    <td>Субота</td>
+                    <td>10:00 - 23:00</td>
+                    <td>Без перерви</td>
+                </tr>
+                <tr>
+                    <td>Неділя</td>
+                    <td colspan="2">Вихідний (замовлення обробляються автоматично, ключі видаються миттєво)</td>
+                </tr>
+            </table>
+        </section>
+
+    </main>
+
+    <hr>
+
+    <footer class="main-footer">
+        <p>Ми в соцмережах:</p>
+        <ul>
+            <li><a href="https://instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+            <li><a href="https://facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+            <li><a href="https://t.me" target="_blank" rel="noopener noreferrer">Telegram</a></li>
+        </ul>
+        <p>
+            Телефон: <a href="tel:+380441234567">+38 (044) 123-45-67</a><br>
+            Email: <a href="mailto:support@game-key.ua">support@game-key.ua</a>
+        </p>
+        <p><a href="contacts.html">Усі контакти</a> | <a href="#top">Вгору ↑</a></p>
+        <hr>
+        <p>&copy; 2026 Game.Key.Ua. Усі права захищені.</p>
+    </footer>
+
+    </div>
+
+    <div class="modal-overlay" id="my-modal">
+        <div class="modal-window">
+            <span class="close-modal" aria-label="Закрити">&times;</span>
+            <h2>Залиште заявку</h2>
+            <form>
+                <input type="text" name="name" placeholder="Ваше ім'я" aria-label="Ваше ім'я" required><br><br>
+                <input type="tel" name="phone" placeholder="Ваш телефон" aria-label="Ваш телефон" required><br><br>
+                <button type="submit">Надіслати</button>
+            </form>
+            <p class="modal-success" hidden>Дякуємо! Ми зателефонуємо вам найближчим часом.</p>
+        </div>
+    </div>
+
+    <a href="#" class="back-to-top">↑</a>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

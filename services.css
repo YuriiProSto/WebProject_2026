@@ -1,0 +1,18 @@
+/* services.css — стилі лише для сторінки services.html (Bootstrap) */
+
+/* SVG-іконка: змінюємо fill/stroke через CSS (працює тільки для inline-<svg>) */
+.my-svg-icon {
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.my-svg-icon circle {
+    transition: 0.3s;
+}
+
+.my-svg-icon:hover circle {
+    fill: #dc3545;            /* жовтий -> червоний */
+    stroke: #dc3545;
+    transform: scale(1.1);    /* легке збільшення */
+    transform-origin: center;
+}
